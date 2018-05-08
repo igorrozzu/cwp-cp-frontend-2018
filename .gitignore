@@ -1,12 +1,5 @@
 .idea
 
 # frontend
-frontend/node_modules
-frontend/.idea
-
-#backend
-backend/node_modules
-backend/.idea
-backend/runtime/
-backend/public/
+node_modules
 

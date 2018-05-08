@@ -1,0 +1,41 @@
+//Global
+export const RESET_MESSAGE = 'RESET_MESSAGE';
+export const SERVER_FAILURE = 'SERVER_FAILURE';
+export const SERVER_SUCCESS = 'SERVER_SUCCESS';
+export const GET_ENTITY = 'GET_ENTITY';
+
+// Auth
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const REGISTER_USER = 'REGISTER_USER';
+
+//Users
+export const GET_USERS_FAILURE = 'GET_USERS_FAILURE';
+export const GET_USERS_SUCCESS = 'GET_USERS_SUCCESS';
+
+// Init
+export const INIT_APP = 'INIT_APP';
+
+// Cinemas
+export const SET_CINEMAS = 'SET_CINEMAS';
+
+// Movies
+export const BIND_MOVIE_TO_CINEMA = 'BIND_MOVIE_TO_CINEMA';
+export const GET_MOVIES = 'GET_MOVIES';
+
+export const GET_SHOWING_MOVIES = 'GET_SHOWING_MOVIES';
+
+export const MOVIES_BY_CINEMA_FAILURE = 'MOVIES_BY_CINEMA_FAILURE';
+export const MOVIES_BY_CINEMA_SUCCESS = 'MOVIES_BY_CINEMA_SUCCESS';
+
+// Seances
+export const SET_SEANCES = 'SET_SEANCES';
+
+// Cinema seats
+export const SET_CINEMA_SEATS = 'SET_CINEMA_SEATS';
+export const UNSET_CINEMA_SEATS = 'UNSET_CINEMA_SEATS';
+export const CHECK_CINEMA_SEAT = 'CHECK_CINEMA_SEAT';
+
+// Reviews
+export const GET_REVIEWS_BY_CINEMA_SUCCESS = 'GET_REVIEWS_BY_CINEMA_SUCCESS';
+export const GET_REVIEWS_BY_CINEMA_FAILURE = 'GET_REVIEWS_BY_CINEMA_FAILURE';
